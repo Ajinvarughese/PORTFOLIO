@@ -24,4 +24,14 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
+function downloadPDF() {
+    var pdfUrl = 'resource/AJIN VARUGHES1.pdf';
+    var link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'file.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
 

@@ -636,3 +636,23 @@ p {
     display: flex;
     justify-content: space-between;
 }
+
+.button-cv {
+    margin-bottom: 15px;
+    padding: 8px 17px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid #f03154e8;
+    letter-spacing: 2px;
+    color: #fff;
+    background: #f03154e8;
+    margin-top: 13px;
+    transition: 0.3s ease;
+    cursor: pointer;
+
+}
+
+.button-cv:hover {
+    transform: scale(1.06);
+}
