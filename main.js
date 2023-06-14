@@ -28,7 +28,7 @@ function downloadPDF() {
     var pdfUrl = 'resource/AJIN VARUGHESE.pdf';
     var link = document.createElement('a');
     link.href = pdfUrl;
-    link.download = 'file.pdf';
+    link.download = 'AjinVarughese CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
