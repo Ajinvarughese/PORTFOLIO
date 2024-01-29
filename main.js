@@ -25,7 +25,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 
 function downloadPDF() {
-    var pdfUrl = 'resource/AJIN VARUGHESE.pdf';
+    var pdfUrl = 'resource/AJINVARUGHESE.pdf';
     var link = document.createElement('a');
     link.href = pdfUrl;
     link.download = 'AjinVarughese CV.pdf';
