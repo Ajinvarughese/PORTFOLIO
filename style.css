@@ -17,9 +17,6 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
   visibility: visible;
 }
-
-
-
 body::-webkit-scrollbar-thumb:hover {
   background: #424141ce;
 }
